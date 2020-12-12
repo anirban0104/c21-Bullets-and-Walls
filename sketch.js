@@ -28,11 +28,11 @@ function draw() {
 
     }
     if (deformation > 180 && deformation > 100) {
-      bullet.shapeColor = color("red")
+      bullet.shapeColor = color("black")
 
     }
     if (deformation < 100) {
-      bullet.shapeColor = color("green")
+      bullet.shapeColor = color("black")
 
     }
     if (Collision(bullet, wall)) {
